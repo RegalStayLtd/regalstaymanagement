@@ -1,315 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="zxx">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Regal Stay Management</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="assets/img/logo/logo.png"
     />
-
-    <!-- Place favicon.ico in the root directory -->
     <script
       src="https://kit.fontawesome.com/2878e73a9f.js"
       crossorigin="anonymous"
     ></script>
-
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
     <link rel="stylesheet" href="assets/css/slick.css" />
-    <link rel="stylesheet" href="assets/css/default.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-
-    <title>Regal Stay Management</title>
+    <link rel="stylesheet" href="assets/css/nouislider.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
+
   <body>
-    <!-- Scroll-top -->
-    <button class="scroll-top scroll-to-target" data-target="html">
-      <i class="fa-solid fa-angle-up"></i>
-    </button>
-    <!-- Scroll-top-end-->
+    <!-- <div id="scroll-indicator"></div> -->
 
-    <!-- header-area -->
+    <!-- back to top start -->
+    <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+        <svg
+          width="12"
+          height="7"
+          viewBox="0 0 12 7"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 6L6 1L1 6"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- back to top end -->
+
+    <!-- header-area-start -->
     <header>
-      <div id="sticky-header" class="menu-area transparent-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="mobile-nav-toggler">
-                <i class="fa-solid fa-bars"></i>
+      <div id="header-sticky" class="tptransparent__header header-1">
+        <div class="tp-header-top">
+          <div class="container">
+            <div class="tp-mega-menu-wrapper">
+              <div class="row align-items-center">
+                <div class="col-xxl-2 col-xl-2 col-lg-6 col-6">
+                  <div class="tplogo__area">
+                    <a href="index.html">
+                      <img src="assets/img/logo/logo.png" alt="logo" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xxl-8 col-xl-7 col-lg-7 d-none d-xl-block">
+                  <div class="tpmenu__area main-mega-menu text-center">
+                    <nav class="tp-main-menu-content">
+                      <ul class="tp-onepage-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 col-lg-6 col-6">
+                  <div
+                    class="tpheader__right d-flex align-items-center justify-content-end"
+                  >
+                    <div class="offcanvas-btn d-xl-none ml-20">
+                      <button class="offcanvas-open-btn">
+                        <i class="fa-solid fa-bars"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="menu-wrap">
-                <nav class="menu-nav">
-                  <div class="logo">
-                    <a href="index.html"
-                      ><img src="assets/img/logo/logo.png" alt="Logo"
-                    /></a>
-                  </div>
-                  <div class="navbar-wrap main-menu d-none d-lg-flex">
-                    <ul class="navigation">
-                      <li>
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li class="active"><a href="about.html">About</a></li>
-                      <li>
-                        <a href="services.html">Services</a>
-                      </li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-
-              <!-- Mobile Menu  -->
-              <div class="mobile-menu">
-                <nav class="menu-box">
-                  <div class="close-btn"><i class="fa-solid fa-times"></i></div>
-                  <div class="nav-logo">
-                    <a href="index.html"
-                      ><img src="assets/img/logo/logo.png" alt="Logo"
-                    /></a>
-                  </div>
-                  <div class="menu-outer">
-                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-                  </div>
-                  <div class="social-links">
-                    <ul class="clearfix list-wrap">
-                      <li>
-                        <a
-                          href="https://www.facebook.com/profile.php?id=100089841392314"
-                          target="_blank"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/regal_stay" target="_blank"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/regalstay"
-                          target="_blank"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/in/regal-stay"
-                          target="_blank"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <div class="menu-backdrop"></div>
-              <!-- End Mobile Menu -->
             </div>
           </div>
         </div>
       </div>
     </header>
     <!-- header-area-end -->
-    <!-- footer-area -->
-    <footer>
-      <div class="footer-area">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-3 col-sm-6 d-flex justify-content-center align-items-center"
-              >
-                <div class="footer-widget">
-                  <div class="logo">
-                    <a href="index.html"
-                      ><img
-                        src="assets/img/logo/logo.png"
-                        alt=""
-                        style="width: 200px; padding-left: 50px"
-                    /></a>
-                  </div>
-                  <div class="footer-social">
-                    <ul class="list-wrap">
-                      <li>
-                        <a
-                          href="https://www.facebook.com/profile.php?id=100089841392314"
-                          target="_blank"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/regal_stay" target="_blank"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/regalstay"
-                          target="_blank"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/in/regal-stay"
-                          target="_blank"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 col-sm-6 d-flex justify-content-center align-items-center"
-              >
-                <div class="footer-widget">
-                  <h4 class="fw-title">Company</h4>
-                  <div class="footer-about">
-                    <ul class="list-wrap">
-                      <li>
-                        <a
-                          href="https://regalstaycleaning.co.uk"
-                          target="_blank"
-                          class="btn"
-                          style="
-                            width: 300px;
-                            color: black;
-                            border-radius: 10px;
-                            padding: 25px;
-                          "
-                          >Regal Stay Cleaning <span></span
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          target="_blank"
-                          class="btn"
-                          style="
-                            width: 300px;
-                            padding: 25px;
-                            color: black;
-                            border-radius: 10px;
-                          "
-                          >Regal Stay Sourcing <span></span
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          target="_blank"
-                          class="btn"
-                          style="
-                            width: 300px;
-                            padding: 25px;
-                            color: black;
-                            border-radius: 10px;
-                          "
-                          >Regal Stay <span></span
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="col-lg-3 col-sm-6">
-                    <div class="footer-widget">
-                      <h4 class="fw-title">Pages</h4>
-                      <div class="fw-link">
-                        <ul class="list-wrap">
-                          <li><a href="about-us.html">About</a></li>
-                          <li><a href="contact.html">Pricing</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                          <li><a href="contact.html">Request for Demo</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div> -->
-              <div
-                class="col-lg-3 col-sm-6 d-flex justify-content-center align-items-center"
-              >
-                <div class="footer-widget">
-                  <h4 class="fw-title">Contact Info</h4>
-                  <div class="footer-about">
-                    <ul class="list-wrap">
-                      <li>
-                        <img src="assets/img/icon/phone_icon.svg" alt="" /><a
-                          href="tel:+441582753283"
-                          >+44 158 275 3283</a
-                        >
-                      </li>
-                      <li>
-                        <img src="assets/img/icon/mail_icon.svg" alt="" /><a
-                          href="mailto:management@regalstay.co.uk"
-                          >management@regalstay.co.uk</a
-                        >
-                      </li>
-                      <li>
-                        <img
-                          src="assets/img/icon/loction_icon.svg"
-                          alt=""
-                        /><span
-                          >Unit 1, Kensworth Gate, <br />
-                          200-204 High Street South,
-                          <br />
-                          Dunstable. <br />
-                          LU6 3HS</span
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+
+    <!-- offcanvas area start -->
+    <div class="offcanvas__area">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__close">
+          <button class="offcanvas__close-btn offcanvas-close-btn">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas__content">
+          <div
+            class="offcanvas__top mb-50 d-flex justify-content-between align-items-center"
+          >
+            <div class="offcanvas__logo logo">
+              <a href="index.html">
+                <img src="assets/img/logo/logo.png" alt="logo" />
+              </a>
             </div>
           </div>
-        </div>
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row align-items-center">
-              <div
-                class="col-lg-12 d-flex justify-content-center align-items-center"
+          <div class="tp-main-menu-mobile mb-35"></div>
+          <div class="offcanvas__btn">
+            <a href="contact.html" class="tp-btn w-100">Getting Started</a>
+          </div>
+          <div class="offcanvas__contact mb-40">
+            <p class="offcanvas__contact-call">
+              <a href="tel:+441582753283">+44 158 275 3283</a>
+            </p>
+            <p class="offcanvas__contact-mail">
+              <a href="mailto:management@regalstay.co.uk"
+                >management@regalstay.co.uk</a
               >
-                <div class="copyright-text text-end">
-                  <p>Copyright Copyright © 2023 Regal Stay. All Rights Reserved</p>
-                </div>
-              </div>
-            </div>
+            </p>
+          </div>
+          <div class="offcanvas__social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- footer-area-end -->
+    </div>
+    <div class="body-overlay"></div>
+    <!-- offcanvas area end -->
+
+    <main>
+
+
+      <!-- footer-area-start -->
+      <footer>
+        <div class="footer-area pt-100">
+          <div class="container">
+            <div class="footer-top">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="footer-widget footer-col-1 mb-40">
+                    <div class="footer-widget-logo mb-20">
+                      <a href="index.html">
+                        <span> </span>
+                      </a>
+                    </div>
+                    <div class="footer-widget-content">
+                      <!-- <p class="footer-widget-text mb-20">
+                        This SEO is most reputed <br />
+                        firm which provides various <br />
+                        online marketing
+                      </p> -->
+                      <div class="footer-widget-social">
+                        <span>Follow Us On</span>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="col-lg-6 col-md-6">
+                  <div class="footer-widget footer-col-3 mb-40">
+                    <h4 class="footer-widget-title mb-15">Services</h4>
+                    <div class="footer-widget-link">
+                      <ul>
+                        <li><a href="seo-audit.html">SEO Audit</a></li>
+                        <li>
+                          <a href="building-social-services.html"
+                            >SEO Services</a
+                          >
+                        </li>
+                        <li><a href="#">SEO Marketing</a></li>
+                        <li>
+                          <a href="marketing-analysis.html">SEO Analysis</a>
+                        </li>
+                        <li>
+                          <a href="keyword-search.html">SEO Optimization</a>
+                        </li>
+                        <li>
+                          <a href="social-media-markiting.html">Social Media</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="footer-widget-copyright text-center">
+                    <span
+                      >Copyright &copy; 2023 Regal Stay. All Rights Reserved
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer-area-end -->
+    </main>
+
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.odometer.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/nouislider.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
     <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/parallax.min.js"></script>
-    <script src="assets/js/jquery.parallaxScroll.min.js"></script>
-    <script src="assets/js/tween-max.js"></script>
-    <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
