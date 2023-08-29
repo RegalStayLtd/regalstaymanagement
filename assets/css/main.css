@@ -1083,15 +1083,15 @@ div.test img {
   font-size: 16px;
   line-height: 1;
   color: var(--tp-common-white);
-  background-color: #007cf5;
+  background-color: var(--tp-theme-primary);
   display: inline-block;
   padding: 12px 32px;
   border-radius: 4px;
-  border: 2px solid #007cf5;
+  border: 2px solid var(--tp-theme-primary);
 }
 
 .light-blue-btn:hover {
-  color: #007cf5;
+  color: var(--tp-theme-primary);
   background-color: transparent;
 }
 
@@ -10818,7 +10818,7 @@ blockquote cite::before {
 .banner-5-title {
   font-family: var(--tp-ff-jakarta);
   font-weight: 700;
-  font-size: 90px;
+  font-size: 55px;
   line-height: 1.02;
   letter-spacing: -0.01em;
   color: var(--tp-common-11);
@@ -17067,7 +17067,7 @@ div.price-open {
 }
 
 .contact-bg {
-  background-color: #e0edff;
+  background-color: #e4ecf8;
 }
 
 .contact-form {
@@ -19616,6 +19616,23 @@ div.price-open {
 
 .feature-5-item-2 .feature-5-list li i {
   color: #f3712c;
+}
+
+.feature-5-item-3 .feature-5-item::before {
+  width: 100%;
+  background: var(--tp-theme-primary);
+}
+
+.feature-5-item-3 .feature-5-icon span {
+  background-color: var(--tp-theme-dark-blue);
+}
+
+.feature-5-item-3 .feature-5-content > span {
+  color: var(--tp-theme-dark-blue);
+}
+
+.feature-5-item-3 .feature-5-list li i {
+  color: var(--tp-theme-dark-blue);
 }
 
 .traffic-item {
@@ -22781,7 +22798,9 @@ div.price-open {
 .brand-5-item {
   text-align: center;
 }
-
+.brand-5-item img {
+  height: 50px;
+}
 .brand-5-item.slick-slide img {
   display: inline-block;
 }
@@ -22998,7 +23017,10 @@ div.price-open {
   margin-left: 72px;
   margin-right: 72px;
 }
-
+.tpbrand-inner-item img {
+  /* width: 50px; */
+  height: 50px;
+}
 .trusted-brand-bg {
   background: linear-gradient(180deg, rgba(243, 244, 249, 0) 0%, #f3f4f9 100%);
   border-radius: 20px;
