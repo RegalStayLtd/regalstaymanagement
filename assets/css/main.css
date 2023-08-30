@@ -2977,7 +2977,7 @@ div.test img {
   font-size: 60px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--tp-common-white);
+  color: var(--tp-heading-primary);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -18574,7 +18574,7 @@ div.price-open {
   top: 0;
   width: 100%;
   height: 92%;
-  background: #33429d;
+  background: #fff;
   box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.15);
   border-radius: 20px;
   padding: 50px 45px 45px 45px;
@@ -18636,7 +18636,11 @@ div.price-open {
   font-weight: 700;
   font-size: 24px;
   line-height: 20px;
-  color: var(--tp-common-white);
+  color: var(--tp-heading-primary);
+}
+
+.feature-title span {
+  font-size: 15px;
 }
 
 .feature-content {
@@ -18650,7 +18654,7 @@ div.price-open {
   font-weight: 400;
   font-size: 18px;
   line-height: 14px;
-  color: var(--tp-common-white);
+  color: var(--tp-heading-primary);
   opacity: 0.6;
   display: inline-block;
 }
