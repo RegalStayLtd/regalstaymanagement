@@ -225,7 +225,7 @@
             <div class="offset-xl-1 col-xl-6 col-lg-6">
               <div class="contact-form">
                 <h4 class="contact-form-title">Contact Us</h4>
-                <form id="contact-form">
+                <form id="contact-form" onsubmit="return Mail()">
                   <div class="contact-form-input">
                     <input
                       name="name"
@@ -273,12 +273,7 @@
                   </div>
 
                   <div class="contact-form-btn">
-                    <button
-                      type="button"
-                      class="tp-btn"
-                      onclick="Mail()"
-                      id="submit"
-                    >
+                    <button type="submit" class="tp-btn" id="submit">
                       Send Message
                     </button>
                   </div>
