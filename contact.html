@@ -225,38 +225,73 @@
             <div class="offset-xl-1 col-xl-6 col-lg-6">
               <div class="contact-form">
                 <h4 class="contact-form-title">Contact Us</h4>
-                <form id="contact-form" action="assets/mail.php" method="POST">
+                <form id="contact-form">
                   <div class="contact-form-input">
-                    <input name="name" type="text" placeholder="Full name" />
+                    <input
+                      name="name"
+                      type="text"
+                      placeholder="Full name"
+                      id="name"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
                     <input
                       name="number"
                       type="text"
                       placeholder="Phone Number"
+                      id="number"
+                      required
                     />
                   </div>
                   <div class="contact-form-input">
-                    <input name="email" type="email" placeholder="Email" />
+                    <input
+                      name="email"
+                      type="email"
+                      placeholder="Email"
+                      id="email"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
-                    <input name="subject" type="text" placeholder="Subject" />
+                    <input
+                      name="subject"
+                      type="text"
+                      placeholder="Subject"
+                      id="subject"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
                     <textarea
                       name="message"
                       placeholder="Talk To Us"
                       name="message"
+                      id="message"
+                      required
                     ></textarea>
                   </div>
 
                   <div class="contact-form-btn">
-                    <button type="submit" class="tp-btn">Send Message</button>
+                    <button
+                      type="button"
+                      class="tp-btn"
+                      onclick="Mail()"
+                      id="submit"
+                    >
+                      Send Message
+                    </button>
                   </div>
                 </form>
-                <p class="ajax-response"></p>
+                <!-- <p class="ajax-response"></p> -->
               </div>
             </div>
+          </div>
+        </div>
+        <div id="thankYouModal" style="display: none" class="modal">
+          <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <p>Thank you for your message! We will get back to you soon.</p>
           </div>
         </div>
       </section>
@@ -269,7 +304,7 @@
             <div class="col-xl-6 col-lg-6">
               <div class="map-wrap">
                 <div class="map-content">
-                  <span>Trying to reach us in Person?</span>
+                  <span>Trying to reach us in person?</span>
                   <h4 class="map-title">Visit our office in Dunstable</h4>
                 </div>
                 <ul>
@@ -482,6 +517,51 @@
     </main>
 
     <!-- JS here -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function Mail() {
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("number").value;
+        let subject = document.getElementById("subject").value;
+        let messages = document.getElementById("message").value;
+
+        let body =
+          "Name: " +
+          name +
+          "<br/> Email: " +
+          email +
+          "<br/> Phone Number: " +
+          phone +
+          "<br/> Subject: " +
+          subject +
+          "<br/> Message: " +
+          messages;
+
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "mo@regalstay.co.uk",
+          Password: "EDC618DACFBB6E300F5823B4FDB5E18BCDC3",
+          To: "mo@regalstay.co.uk",
+          From: "mo@regalstay.co.uk",
+          Subject: "Mail From Regal Stay Management Contact Form",
+          Body: body,
+        }).then(function (message) {
+          // Redirect after a delay (adjust the delay time as needed)
+          const modal = document.getElementById("thankYouModal");
+          modal.style.display = "flex";
+
+          setTimeout(function () {
+            window.location.href = "index.html";
+          }, 3000); // Redirect after 3 seconds (3000 milliseconds)
+        });
+      }
+      function closeModal() {
+        const modal = document.getElementById("thankYouModal");
+        modal.style.display = "none";
+      }
+    </script>
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/waypoints.js"></script>
     <script src="assets/js/bootstrap-bundle.js"></script>
