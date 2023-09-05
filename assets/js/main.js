@@ -1648,16 +1648,17 @@
   $(".tpbrand-active-5").slick({
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 500,
+    pauseOnHover: false,
     autoplay: true,
     arrows: false,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 5,
         },
       },
       {
@@ -1696,9 +1697,9 @@
   //  37. Brand-5
   $(".tpbrand-inner-active").slick({
     dots: false,
-    infinite: false,
-    speed: 1000,
-    autoplay: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
     arrows: false,
     slidesToShow: 5,
     slidesToScroll: 1,
