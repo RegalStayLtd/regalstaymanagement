@@ -1652,13 +1652,13 @@
     pauseOnHover: false,
     autoplay: true,
     arrows: false,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
         },
       },
       {
@@ -1670,7 +1670,7 @@
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
@@ -1701,13 +1701,13 @@
     speed: 500,
     autoplay: true,
     arrows: false,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1800,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
         },
       },
       {
