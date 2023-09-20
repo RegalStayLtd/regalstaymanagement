@@ -10357,9 +10357,105 @@ div.test img {
 @media (max-width: 767px) {
   .counter-item-4 {
     margin-bottom: 40px;
+    display: block;
+  }
+
+  .counter-item-4-icon {
+    margin-right: 0; /* Remove margin-right to center the icon */
   }
 }
 
+.portfolio-inner-head {
+  font-family: var(--tp-ff-jakarta);
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: #0e1331;
+}
+
+@media (max-width: 767px) {
+  .portfolio-inner-head {
+    font-size: 38px;
+  }
+}
+
+.portfolio-inner-thumb {
+  margin-bottom: 20px;
+}
+
+.portfolio-inner-thumb img {
+  border-radius: 5px;
+  border: 1px solid #4059ad;
+  /* height: 500px; */
+}
+
+.portfolio-inner-content span {
+  display: inline-block;
+  font-family: var(--tp-ff-jakarta);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tp-grey-8);
+}
+
+@media (max-width: 767px) {
+  .portfolio-inner-content span {
+    line-height: 1;
+  }
+}
+
+.portfolio-inner-title {
+  font-family: var(--tp-ff-jakarta);
+  font-weight: 600;
+  font-size: 26px;
+  color: var(--tp-common-11);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-inner-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-inner-title {
+    font-size: 20px;
+  }
+}
+
+.portfolio-inner-title a:hover {
+  color: var(--tp-theme-primary);
+}
+
+.portfolio-inner-btn a {
+  font-family: var(--tp-ff-jakarta);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 12px;
+  color: var(--tp-theme-primary);
+  display: inline-block;
+  background: #edeffa;
+  border: 1px solid rgba(237, 239, 250, 0.12);
+  border-radius: 6px;
+  padding: 14px 67px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.portfolio-inner-btn a:hover {
+  background-color: var(--tp-theme-primary);
+  color: var(--tp-common-white);
+}
+
+.portfolio-inner-btn a span {
+  display: inline-block;
+  margin-right: 4px;
+}
 .counter-item-4-icon {
   flex: 0 0 auto;
   margin-right: 15px;
