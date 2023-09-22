@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Regal Stay Management</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/logo/logo.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/2878e73a9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nouislider.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome-pro.css" /> -->
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <script>
+      // Remove .html extension from the URL
+      if (window.location.pathname.endsWith(".html")) {
+        var newPath = window.location.pathname.slice(0, -5); // Remove the last 5 characters (.html)
+        window.history.replaceState({}, document.title, newPath);
+      }
+    </script> -->
+  </head>
+
+  <body>
+    <!-- <div id="scroll-indicator"></div> -->
+
+    <!-- back to top start -->
+    <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </div>
+    <!-- back to top end -->
+
+    <!-- header-area-start -->
+    <header class="pb-100">
+      <div id="header-sticky" class="tptransparent__header header-1">
+        <div class="tp-header-top">
+          <div class="container">
+            <div class="tp-mega-menu-wrapper">
+              <div class="row align-items-center">
+                <div class="col-xxl-2 col-xl-2 col-lg-6 col-6">
+                  <div class="tplogo__area">
+                    <a href="index.html">
+                      <img src="assets/img/logo/logo.png" alt="logo" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xxl-8 col-xl-7 col-lg-7 d-none d-xl-block">
+                  <div class="tpmenu__area main-mega-menu text-center">
+                    <nav class="tp-main-menu-content">
+                      <ul class="tp-onepage-menu">
+                        <li>
+                          <a
+                            href="index.html"
+                            style="font-size: 22px; font-weight: bold"
+                            >Home</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="about.html"
+                            style="font-size: 22px; font-weight: bold"
+                            >About</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="services.html"
+                            style="font-size: 22px; font-weight: bold"
+                            >Services</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="blog.html"
+                            style="font-size: 22px; font-weight: bold"
+                            >Blog</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="contact.html"
+                            style="font-size: 22px; font-weight: bold"
+                            >Contact Us</a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 col-lg-6 col-6">
+                  <div
+                    class="tpheader__right d-flex align-items-center justify-content-end"
+                  >
+                    <div class="offcanvas-btn d-xl-none ml-20">
+                      <button class="offcanvas-open-btn">
+                        <i class="fa-solid fa-bars"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-header" style="background-color: #4059ad; width: 100%">
+          <div class="custom-container">
+            <div id="header-sticky" class="header-bg-4">
+              <div class="row align-items-center">
+                <p class="text-center" style="color: white; padding-top: 10px">
+                  Free Presentation Website for all our clients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- offcanvas area start -->
+    <div class="offcanvas__area">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__close">
+          <button class="offcanvas__close-btn offcanvas-close-btn">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas__content">
+          <div
+            class="offcanvas__top mb-50 d-flex justify-content-between align-items-center"
+          >
+            <div class="offcanvas__logo logo">
+              <a href="index.html">
+                <img src="assets/img/logo/logo.png" alt="logo" />
+              </a>
+            </div>
+          </div>
+          <div class="tp-main-menu-mobile mb-35"></div>
+          <div class="offcanvas__btn">
+            <a href="contact.html" class="tp-btn w-100">Get Started</a>
+          </div>
+          <div class="offcanvas__contact mb-40">
+            <p class="offcanvas__contact-call">
+              <a href="tel:+441582753283">+44 158 275 3283</a>
+            </p>
+            <p class="offcanvas__contact-mail">
+              <a href="mailto:support@regalstay.co.uk"
+                >support@regalstay.co.uk</a
+              >
+            </p>
+          </div>
+          <div class="offcanvas__social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100089841392314"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com/regal_stay" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/regal-stay" target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.instagram.com/regalstay" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- offcanvas area end -->
+
+    <main>
+      <!-- banner-area-start -->
+      <section
+        class="banner__area tpbanner-space scene tpbanner-shape-wrapper fix"
+        data-background="assets/img/banner/banner5.jpg"
+      >
+        <div class="tpbanner-shape-wrappers">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="tpbanner__content text-center">
+                  <div class="tpbanner__sub-title mb-15">
+                    <span>Welcome To</span>
+                    <i>
+                      <svg
+                        width="110"
+                        height="35"
+                        viewBox="0 0 110 35"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <rect
+                          width="110"
+                          height="34.1"
+                          fill="url(#pattern)"
+                          fill-opacity="0.08"
+                        />
+                        <defs>
+                          <pattern
+                            id="pattern"
+                            patternContentUnits="objectBoundingBox"
+                            width="1"
+                            height="1"
+                          >
+                            <use
+                              xlink:href="#image0_831_2448"
+                              transform="translate(-0.06) scale(0.00611111 0.0197133)"
+                            />
+                          </pattern>
+                          <image
+                            id="image0_831_2448"
+                            width="180"
+                            height="50"
+                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg=="
+                          />
+                        </defs>
+                      </svg>
+                    </i>
+                  </div>
+                  <h1 class="tpbanner__title mb-25 pb-10">
+                    Regal Stay Management
+                  </h1>
+                  <p>
+                    With a portfolio spanning 21 major cities and encompassing
+                    65 listings, our commitment to elevating your assets' value
+                    is unparalleled. Discover a world of tailored management
+                    strategies, proactive expertise, and unwavering dedication
+                    that propels your investments toward a future of sustained
+                    prosperity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="tpbanner-shape d-none d-lg-block">
+            <div class="tpbanner-shape-one">
+              <img
+                class="layer"
+                data-depth="0.3"
+                src="assets/img/shape/banner-plus.png"
+                alt=""
+              />
+            </div>
+            <div class="tpbanner-shape-three">
+              <img
+                class="layer"
+                data-depth="0.4"
+                src="assets/img/shape/banner-dots.png"
+                alt=""
+              />
+            </div>
+            <div class="tpbanner-shape-four">
+              <img src="assets/img/shape/banner-archer.png" alt="" />
+            </div>
+            <div class="tpbanner-shape-five">
+              <img
+                class="layer"
+                data-depth="0.2"
+                src="assets/img/shape/banner-pose.png"
+                alt=""
+              />
+            </div>
+            <div class="tpbanner-shape-six">
+              <img
+                class="layer"
+                data-depth="0.3"
+                src="assets/img/shape/banner-tree.png"
+                alt=""
+              />
+            </div>
+          </div> -->
+        </div>
+        <!-- <div class="tpbanner-shape-wrappers tpbanner-shape-y scene-y">
+          <div class="tpbanner-shape d-none d-lg-block">
+            <div class="tpbanner-shape-two">
+              <img
+                class="layer"
+                data-depth="0.6"
+                src="assets/img/shape/banner-megaphone.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div> -->
+      </section>
+      <!-- banner-area-end -->
+      <!-- choose-area-start -->
+      <section
+        class="choose-area tpchoose-bottom pb-80"
+        style="padding-top: 100px"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5">
+              <div class="tpchoose-thumb mt-30 p-relative mb-50">
+                <img
+                  class="tpchoose-border-anim"
+                  src="assets/img/banner/choose-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+              <div class="tpchoose-wrapper mb-30">
+                <div class="tpsection__content mb-50">
+                  <div class="tpbanner__sub-title mb-15">
+                    <span>Why Choose us</span>
+                    <i>
+                      <svg
+                        width="130"
+                        height="42"
+                        viewBox="0 0 130 42"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <rect
+                          y="0.941895"
+                          width="130"
+                          height="40.9551"
+                          fill="url(#pattern6)"
+                          fill-opacity="0.08"
+                        />
+                        <defs>
+                          <pattern
+                            id="pattern6"
+                            patternContentUnits="objectBoundingBox"
+                            width="1"
+                            height="1"
+                          >
+                            <use
+                              xlink:href="#image0_868_3547"
+                              transform="translate(-0.0587762 0.0123052) scale(0.00611916 0.0198269)"
+                            />
+                          </pattern>
+                          <image
+                            id="image0_868_3547"
+                            width="180"
+                            height="50"
+                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg=="
+                          />
+                        </defs>
+                      </svg>
+                    </i>
+                  </div>
+                  <h2 class="tpsection__title mb-15">
+                    What makes Us <br />
+                    Different from Others
+                  </h2>
+                  <p>
+                    At Regal Stay Management, we believe our commitment to
+                    excellence, tailored solutions, and proven track record set
+                    us apart.
+                  </p>
+                </div>
+                <div class="row gx-6">
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="about.html" class="tpchoose mb-30">
+                      <div class="tpchoose-icon mb-25">
+                        <span
+                          ><img
+                            src="assets/img/icon/strategy.png"
+                            alt=""
+                            style="height: 35px; width: 35px"
+                        /></span>
+                      </div>
+                      <div class="tpchoose-text">
+                        <span class="tpchoose-title"
+                          >Custom Management Strategies</span
+                        >
+                        <div class="tparrow-right">
+                          <i>
+                            <svg
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.930176 1L5.93018 6L0.930176 11"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-miterlimit="10"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="about.html" class="tpchoose mb-30">
+                      <div class="tpchoose-icon mb-25">
+                        <span
+                          ><img
+                            src="assets/img/icon/maintenance.png"
+                            alt=""
+                            style="height: 35px; width: 35px"
+                        /></span>
+                      </div>
+                      <div class="tpchoose-text">
+                        <span class="tpchoose-title">
+                          Meticulous Property Maintenance</span
+                        >
+                        <div class="tparrow-right">
+                          <i>
+                            <svg
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.930176 1L5.93018 6L0.930176 11"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-miterlimit="10"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="about.html" class="tpchoose mb-30">
+                      <div class="tpchoose-icon mb-25">
+                        <span
+                          ><img
+                            src="assets/img/icon/tenant.png"
+                            alt=""
+                            style="height: 35px; width: 35px"
+                        /></span>
+                      </div>
+                      <div class="tpchoose-text">
+                        <span class="tpchoose-title"
+                          >Guest Relations Excellence</span
+                        >
+                        <div class="tparrow-right">
+                          <i>
+                            <svg
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.930176 1L5.93018 6L0.930176 11"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-miterlimit="10"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- choose-area-end -->
+      <!-- counter-area-start -->
+      <section class="counter-area pb-80">
+        <div class="container">
+          <div class="counter-bg-4 p-relative fix">
+            <div
+              class="counter-wrapper d-flex align-items-center justify-content-between"
+            >
+              <div class="counter-item-4 d-flex">
+                <div class="counter-item-4-icon">
+                  <i>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="23"
+                      width="24"
+                      viewBox="0 0 640 512"
+                    >
+                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <style>
+                        svg {
+                          fill: #ffffff;
+                        }
+                      </style>
+                      <path
+                        d="M480 48c0-26.5-21.5-48-48-48H336c-26.5 0-48 21.5-48 48V96H224V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V96H112V24c0-13.3-10.7-24-24-24S64 10.7 64 24V96H48C21.5 96 0 117.5 0 144v96V464c0 26.5 21.5 48 48 48H304h32 96H592c26.5 0 48-21.5 48-48V240c0-26.5-21.5-48-48-48H480V48zm96 320v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16zM240 416H208c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16zM128 400c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32zM560 256c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16h32zM256 176v32c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16zM112 160c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16h32zM256 304c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32zM112 320H80c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16zm304-48v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16zM400 64c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16h32zm16 112v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16z"
+                      />
+                    </svg>
+                  </i>
+                </div>
+                <div class="counter-item-4-content">
+                  <h3 class="counter-item-4-count">
+                    <span
+                      data-purecounter-duration="1"
+                      data-purecounter-end="21"
+                      class="purecounter"
+                      >21</span
+                    >+
+                  </h3>
+                  <p>Major Cities</p>
+                </div>
+              </div>
+              <div class="counter-item-4 d-flex">
+                <div class="counter-item-4-icon">
+                  <i>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="23"
+                      width="24"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <style>
+                        svg {
+                          fill: #ffffff;
+                        }
+                      </style>
+                      <path
+                        d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"
+                      />
+                    </svg>
+                  </i>
+                </div>
+                <div class="counter-item-4-content">
+                  <h3 class="counter-item-4-count">
+                    <span
+                      data-purecounter-duration="1"
+                      data-purecounter-end="65"
+                      class="purecounter"
+                      >65</span
+                    >+
+                  </h3>
+                  <p>Listings</p>
+                </div>
+              </div>
+              <div class="counter-item-4 d-flex">
+                <div class="counter-item-4-icon">
+                  <i>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="23"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                      <style>
+                        svg {
+                          fill: #ffffff;
+                        }
+                      </style>
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM164.1 325.5C182 346.2 212.6 368 256 368s74-21.8 91.9-42.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C349.8 372.1 311.1 400 256 400s-93.8-27.9-116.1-53.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                      />
+                    </svg>
+                  </i>
+                </div>
+                <div class="counter-item-4-content">
+                  <h3 class="counter-item-4-count">
+                    <span
+                      data-purecounter-duration="1"
+                      data-purecounter-end="100"
+                      class="purecounter"
+                      >100</span
+                    >%
+                  </h3>
+                  <p>Customer Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- counter-area-end -->
+      <!-- services-area-start -->
+      <section id="services-one-page" class="services-area pt-140 pb-110">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tpsection__content text-center mb-70">
+                <div class="tpbanner__sub-title mb-15">
+                  <span>Our Services</span>
+                  <i>
+                    <svg
+                      width="126"
+                      height="37"
+                      viewBox="0 0 126 37"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <rect
+                        width="126"
+                        height="37"
+                        fill="url(#pattern4)"
+                        fill-opacity="0.08"
+                      />
+                      <defs>
+                        <pattern
+                          id="pattern4"
+                          patternContentUnits="objectBoundingBox"
+                          width="1"
+                          height="1"
+                        >
+                          <use
+                            xlink:href="#image0_859_2751"
+                            transform="translate(-0.0507936) scale(0.00603175 0.0205405)"
+                          />
+                        </pattern>
+                        <image
+                          id="image0_859_2751"
+                          width="180"
+                          height="50"
+                          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg=="
+                        />
+                      </defs>
+                    </svg>
+                  </i>
+                </div>
+                <h2 class="tpsection__title mb-15">What We Do</h2>
+                <p>
+                  Discover how we redefine property management through specially
+                  curated services, <br />
+                  our dedicated team, and a streamlined process that ensures
+                  your investments soar.
+                </p>
+              </div>
+              <div class="tpservices">
+                <div class="tpservices-list">
+                  <ul>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item1">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/call.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Call Centre Support</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Our 24/7 call center is here to address all
+                              inquiries, ensuring a seamless property management
+                              experience</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item2">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/book.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Sales</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Count on our dedicated support team to drive
+                              sales success and maximize your property's
+                              revenue</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item3">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/advert.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Effective Advertisements</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Our marketing experts create compelling property
+                              advertisements to attract quality guests</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item4">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/report.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Cleaning & Maintenance</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Our dedicated team ensures your property is
+                              always in top-notch condition, providing an
+                              inviting living space for your guests</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item5">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/legal.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Monthly Sales Reports</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Stay informed with detailed monthly reports that
+                              provide insights into your property's
+                              financials</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item6">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/source.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Bookkeeping</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >We keep your financials in order, managing income
+                              and expenses with precision</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item4">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/report.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Legal Matters Management</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Trust us to handle legal matters, ensuring your
+                              investments are compliant with all relevant laws
+                              and regulations</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item5">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/legal.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Property Sourcing</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >We help you discover new investment
+                              opportunities, sourcing properties that align with
+                              your investment goals</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tpservices-wrapper tpservices-item6">
+                        <!-- <div class="tpservices-img mb-35">
+                          <img src="assets/img/services/source.png" alt="" />
+                        </div> -->
+                        <div class="tpservices-content">
+                          <span>Direct Bookings</span>
+                          <h4 class="tpservices-title">
+                            <a href="javascript:void(0)"
+                              >Maximize your revenue potential with our direct
+                              booking services, offering you additional
+                              opportunities for increased sales and control over
+                              your property</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- services-area-end -->
+
+      <!-- services-area-start -->
+      <section class="services-area pt-95 pb-100 mb-110">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="section-wrapper mb-60 text-center">
+                <h5 class="section-title-4 fs-40">
+                  Our property management process is designed to maximize your
+                  investments' potential
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-inner-item mb-30"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                "
+              >
+                <div class="services-inner-thumb">
+                  <img
+                    src="assets/img/services/assessment.png"
+                    alt=""
+                    style="height: 200px; width: 200px"
+                  />
+                </div>
+                <div class="services-inner-content">
+                  <h4 class="services-inner-title">
+                    <a href="javascript:void(0)">Property <br />Assessment</a>
+                  </h4>
+                  <p>
+                    We thoroughly assess your property's condition and
+                    potential, setting the stage for a tailored strategy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-inner-item mb-30"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                "
+              >
+                <div class="services-inner-thumb">
+                  <img
+                    src="assets/img/services/strategy.png"
+                    alt=""
+                    style="height: 200px; width: 200px"
+                  />
+                </div>
+                <div class="services-inner-content">
+                  <h4 class="services-inner-title">
+                    <a href="javascript:void(0)"
+                      >Customized <br />
+                      Strategy</a
+                    >
+                  </h4>
+                  <p>
+                    Leveraging our expertise, we design a unique management
+                    strategy for your property.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="services-inner-item mb-30"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                "
+              >
+                <div class="services-inner-thumb">
+                  <img
+                    src="assets/img/services/inspection.png"
+                    alt=""
+                    style="height: 200px; width: 200px"
+                  />
+                </div>
+                <div class="services-inner-content">
+                  <h4 class="services-inner-title">
+                    <a href="javascript:void(0)"
+                      >Regular <br />
+                      Inspections</a
+                    >
+                  </h4>
+                  <p>
+                    Ensuring your investment remains in top condition and lease
+                    agreements are upheld.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- services-area-end -->
+      <!-- portfolio-area-start -->
+      <section class="portfolio-area pt-50 pb-110">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="portfolio-inner mb-50 text-center">
+                <h4 class="portfolio-inner-head">
+                  Examples of Bookings We Generate
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="row grid">
+            <div class="col-lg-6 col-md-6 grid-item port3 port4">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port3">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port4">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port3">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/4.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port3">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/5.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port4">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port3">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/7.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 grid-item port2 port4">
+              <div class="portfolio-inner-item mb-60">
+                <div class="portfolio-inner-thumb">
+                  <img src="assets/img/portfolio/8.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio-area-end -->
+
+      <!-- testimonial-area-start -->
+      <section class="testimonial-area p-relative mt-120 pb-90">
+        <div class="container">
+          <div class="testimonial-5-bg">
+            <!-- <div class="testimonial-5-bg-shape d-none d-md-block">
+              <img src="assets/img/shape/testimonial-5-bg-1.png" alt="" />
+            </div>
+            <div
+              class="testimonial-5-bg-shape-two wow bounceIn"
+              data-wow-duration=".6s"
+              data-wow-delay=".6s"
+            >
+              <img src="assets/img/shape/testimonial-5-bg-2.png" alt="" />
+            </div> -->
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="testimonial-5-head text-center mb-60">
+                <h2 class="tpsection__title">What our clients say</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="testimonial-5 p-relative">
+                <div class="row">
+                  <div class="col-lg-5 col-md-5 order-2 order-md-1">
+                    <div class="testimonial-5-shape">
+                      <div class="testimonial-5-shape-one">
+                        <img src="assets/img/shape/testimonial.png" alt="" />
+                      </div>
+                      <!-- <div class="testimonial-5-shape-two d-none d-md-block">
+                        <img
+                          src="assets/img/shape/testimonial-5-shape-3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="testimonial-5-shape-three d-none d-md-block">
+                        <img
+                          src="assets/img/shape/testimonial-5-shape-4.png"
+                          alt=""
+                        />
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7 order-1 order-md-2">
+                    <div class="testimonial-5-content testi-5-active">
+                      <div class="testimonial-5-content-wrap">
+                        <p>
+                          "Regal Stay Management's proactive approach to
+                          property management is commendable. They've
+                          consistently maintained the value of my investments
+                          and handled issues swiftly. Their innovative approach
+                          brought in high-quality guests. I'm a satisfied,
+                          long-term client."
+                        </p>
+                        <div class="author-info-5">
+                          <h5 class="author-title-5">William G.</h5>
+                        </div>
+                      </div>
+                      <div class="testimonial-5-content-wrap">
+                        <p>
+                          "Regal Stay Management's continuous performance
+                          monitoring gives me complete peace of mind. Their
+                          prompt response to issues and proactive maintenance
+                          ensure my properties remain in excellent condition. I
+                          highly recommend their services to any property
+                          owner."
+                        </p>
+                        <div class="author-info-5">
+                          <h5 class="author-title-5">John T</h5>
+                        </div>
+                      </div>
+                      <div class="testimonial-5-content-wrap">
+                        <p>
+                          "Regal Stay Management's commitment to sustainability
+                          is impressive. Not only have they reduced costs, but
+                          my properties now attract eco-conscious guests who
+                          appreciate the environmentally-friendly features. A
+                          win-win for sure!"
+                        </p>
+                        <div class="author-info-5">
+                          <h5 class="author-title-5">Patricia M.</h5>
+                        </div>
+                      </div>
+                      <div class="testimonial-5-content-wrap">
+                        <p>
+                          "I can't thank Regal Stay Management enough for their
+                          strategic market analysis. Their expertise in
+                          positioning my properties correctly in the market has
+                          significantly improved my rental income. It's been a
+                          fantastic journey with them."
+                        </p>
+                        <div class="author-info-5">
+                          <h5 class="author-title-5">Michael S.</h5>
+                        </div>
+                      </div>
+                      <div class="testimonial-5-content-wrap">
+                        <p>
+                          "Regal Stay Management has been a game-changer for my
+                          property investments. Their meticulous maintenance and
+                          guest relations have not only increased my property's
+                          value but also my confidence as an investor."
+                        </p>
+                        <div class="author-info-5">
+                          <h5 class="author-title-5">Jennifer M.</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial-area-end -->
+      <!-- review-area-start -->
+      <div class="review-area tpreview-4">
+        <div class="container">
+          <div class="pb-30 mb-30 pt-55">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="tpreview-4 text-center mb-30">
+                  <div class="tpreview-4-icon mb-15">
+                    <img
+                      src="assets/img/brand/ombudsman.png"
+                      alt=""
+                      style="height: 100px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="tpreview-4 review-side-border text-center mb-30">
+                  <div class="tpreview-4-icon mb-15">
+                    <img
+                      src="assets/img/brand/nrla.png"
+                      alt=""
+                      style="height: 100px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="tpreview-4 text-center mb-30">
+                  <div class="tpreview-4-icon mb-15">
+                    <img
+                      src="assets/img/brand/prs.png"
+                      alt=""
+                      style="height: 100px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- review-area-end -->
+
+      <!-- footer-area-start -->
+      <footer style="overflow: hidden">
+        <div class="footer-area pt-100 footer-bg2 p-relative">
+          <div class="container">
+            <div class="footer-top">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                  <div class="footer-widget footer-2-col-1 mb-30">
+                    <div class="footer-widget-logo mb-20">
+                      <a href="index.html"
+                        ><img
+                          src="assets/img/logo/logo.png"
+                          alt=""
+                          style="height: 150px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="footer-widget-content">
+                      <div class="footer-widget-social2">
+                        <a
+                          class="footer-facebook"
+                          href="https://www.facebook.com/profile.php?id=100089841392314"
+                          target="_blank"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                        <a href="https://twitter.com/regal_stay" target="_blank"
+                          ><i class="fa-brands fa-x-twitter"></i
+                        ></a>
+                        <a
+                          class="footer-linkedin"
+                          href="https://www.linkedin.com/in/regal-stay"
+                          target="_blank"
+                          ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                        <a
+                          class="footer-insta"
+                          href="https://www.instagram.com/regalstay"
+                          target="_blank"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div
+                    class="footer-widget footer-widget-2 footer-2-col-3 mb-40"
+                  >
+                    <h4 class="footer-widget-title mb-15" style="color: white">
+                      Company
+                    </h4>
+                    <div class="footer-widget-link">
+                      <ul style="list-style: none">
+                        <li style="padding-bottom: 2px">
+                          <a
+                            href="https://regalstaycleaning.co.uk/"
+                            target="_blank"
+                            class="tp-btn"
+                            style="width: 300px; color: white"
+                          >
+                            Regal Stay Cleaning
+                          </a>
+                        </li>
+                        <li style="padding-bottom: 2px">
+                          <a
+                            href="https://regalstaysourcing.co.uk/"
+                            target="_blank"
+                            class="tp-btn"
+                            style="width: 300px; color: white"
+                          >
+                            Regal Stay Sourcing
+                          </a>
+                        </li>
+                        <li style="padding-bottom: 2px">
+                          <a
+                            href="https://regalstayholdings.co.uk/"
+                            target="_blank"
+                            class="tp-btn"
+                            style="width: 300px; color: white"
+                          >
+                            Regal Stay
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div
+                    class="footer-widget footer-widget-2 footer-2-col-4 mb-40"
+                  >
+                    <h4 class="footer-widget-title mb-20" style="color: white">
+                      Contact Info
+                    </h4>
+                    <div class="tpcontact-info-links">
+                      <strong style="color: white">ADDRESS:</strong>
+                      <p style="color: #d2d2d4">
+                        Unit 1, Kensworth Gate, 200-204 High Street South,<br />
+                        Dunstable. LU6 3HS
+                      </p>
+                      <strong style="color: white">EMAIL:</strong>
+                      <p style="color: #d2d2d4">support@regalstay.co.uk</p>
+                      <strong style="color: white">PHONE:</strong>
+                      <p style="color: #d2d2d4">+44 158 275 3283</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="row">
+              <div class="col-lg-12">
+                <div
+                  class="footer-widget-copyright footer-widget-copyright2 text-center"
+                >
+                  <p style="color: #d2d2d4">
+                    Copyright &copy; 2023 Regal Stay. All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer-area-end -->
+    </main>
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/nouislider.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
